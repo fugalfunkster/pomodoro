@@ -1,0 +1,58 @@
+body{
+  font-family: 'Cutive mono', cursive;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  background: 
+    repeating-linear-gradient(45deg, transparent, transparent 5%, rgba(75, 75, 75, 0.75) 5%,
+      rgba(75, 75, 75, 0.755) 10%, transparent 10%, transparent 15%, rgba(255, 0, 0, 0.5) 15%, rgba(255, 0, 0, 0.5) 20%),
+    repeating-linear-gradient(-45deg, transparent, transparent 5%, rgba(75, 75, 75, 0.75) 5%,
+      rgba(75, 75, 75, 0.755) 10%, transparent 10%, transparent 15%, rgba(255, 0, 0, 0.5) 15%, rgba(255, 0, 0, 0.5) 20%);  
+}
+
+.words {
+ background-color: white;
+  padding: 15px;
+  border-radius: 50px;
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 80px;
+  margin: 0
+}
+
+h2 {
+    font-size: 60px;
+    margin: 0
+}
+
+#session, h3 {
+  font-size: 40px;
+  margin: 0
+}
+
+.inputPanel {
+  display: inline-block;
+  margin: 0;
+  font-size: 20px;
+  border-radius: 5px;
+  background: white;
+}
+
+#clock {
+  font-size: 40px;
+  width: 160px;
+  height: 230px;
+  border: 5px solid;
+  border-radius: 90px 90px 75px 75px / 150px 150px 100px 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+#nums {
+  display: block;
+  margin-top: 90px;
+}
